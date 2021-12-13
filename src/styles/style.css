@@ -4,6 +4,14 @@ body {
     margin: 0;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
 .header {
     font-family: 'Roboto Condensed', sans-serif;
     position: fixed;
@@ -58,6 +66,17 @@ body {
     background-color: #fff;
     padding: 1rem;
     margin-top: 5rem;
+}
+
+.hobby-image {
+    width: 30%;
+    max-height: 10rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.hobby-card {
+    display: flex;
 }
 
 .footer {

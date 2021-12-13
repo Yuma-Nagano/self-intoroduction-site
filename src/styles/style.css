@@ -1,22 +1,35 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
-    padding: 0 10rem;
     background-color: rgba(110, 63, 191, 0.4);
+    margin: 0;
 }
 
-header {
+.header {
     font-family: 'Roboto Condensed', sans-serif;
-    padding: auto;
+    position: fixed;
+    width: 100%;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    padding: 0 2rem;
 }
 
 .navigation a {
     text-decoration: none;
+}
+
+.top {
+    background-image: url(../images/IMG_4019.JPG);
+}
+
+.title {
+    margin: 0;
+}
+
+.main {
+    padding: 0 10rem;
 }
 
 .profile {

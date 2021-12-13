@@ -1,0 +1,22 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0 10rem;
+    background-color: rgba(110, 63, 191, 0.4);
+}
+
+header {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.navigation li a {
+    text-decoration: none;
+}

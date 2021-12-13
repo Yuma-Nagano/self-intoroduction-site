@@ -3,6 +3,9 @@ body {
     background-color: rgba(110, 63, 191, 0.4);
     margin: 0;
 }
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 h2 {
     font-size: 2rem;
@@ -104,4 +107,5 @@ h3 {
 
 .copyright {
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }

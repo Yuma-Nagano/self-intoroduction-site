@@ -8,12 +8,14 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     position: fixed;
     width: 100%;
+    background-color: rgba(110, 63, 191, 1);
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
     padding: 0 2rem;
+    margin: 0;
 }
 
 .navigation a {

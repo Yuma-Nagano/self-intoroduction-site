@@ -53,3 +53,13 @@ body {
 .profile-image {
     width: 30%;
 }
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.copyright {
+    margin: 0;
+}

@@ -72,12 +72,12 @@ h3 {
 .hobby {
     background-color: #fff;
     padding: 1rem 10rem;
-    margin-top: 5rem;
+    margin: 5rem 0;
 }
 
 .hobby-image {
     width: 30%;
-    max-height: 10rem;
+    max-height: 40vh;
     object-fit: cover;
     margin-right: 1rem;
 }

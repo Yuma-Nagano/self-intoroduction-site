@@ -98,6 +98,19 @@ h3 {
     margin-top: 5rem;   
 }
 
+.photography-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.photography-item {
+    width: 30%;
+    margin-bottom: 5%;
+    object-fit: cover;
+}
+
 .footer {
     background-color: #fff;
     text-align: center;

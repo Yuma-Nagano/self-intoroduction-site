@@ -108,6 +108,7 @@ h3 {
 
 .photography-item {
     width: 30%;
+    height: 30vw;
     margin-bottom: 5%;
     object-fit: cover;
 }

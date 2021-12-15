@@ -21,10 +21,12 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 h3 {
     font-size: 1.5rem;
+    margin: 2rem 0 0.5rem
 }
 
 .header {
@@ -74,6 +76,7 @@ h3 {
 
 .profile-image {
     width: 30%;
+    margin-top: 0.5rem
 }
 
 .hobby {
@@ -82,13 +85,17 @@ h3 {
     margin: 5rem 0;
 }
 
+.hobby-container {
+    margin-bottom: 2rem;
+}
+
 .hobby-image {
     min-width: 30%;
     max-width: 8rem;
     max-height: 40vh;
     min-height: 40vh;
     object-fit: cover;
-    margin-right: 1rem;
+    margin: 0.5rem 1rem 0 0;
 }
 
 .hobby-card {

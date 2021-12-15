@@ -33,7 +33,7 @@ h3 {
 
 .navigation a {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 1rem;
     color: #fff;
@@ -123,4 +123,44 @@ h3 {
 .copyright {
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media screen and (max-width: 959px) {
+    .navigation a {
+        font-size: 1rem;
+    }
+
+    .top {
+        height: 25vh;
+    }
+
+    .title {
+        padding: 7rem 2.5rem 0;
+        font-size: 2rem;
+    }
+    
+    .profile {
+        padding: 1rem 2rem;
+    }
+    
+    .hobby {
+        padding: 1rem 2rem;
+    }
+    
+    .hobby-image {
+        min-width: 30%;
+        max-width: 30%;
+        max-height: 40vh;
+        min-height: 40vh;
+        object-fit: cover;
+        margin-right: 1rem;
+    }
+
+    .contact {
+        padding: 1rem 2rem;
+    }
+    
+    .photography {
+        padding: 1rem 2rem;
+    }
 }

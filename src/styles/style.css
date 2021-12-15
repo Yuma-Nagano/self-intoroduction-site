@@ -1,7 +1,13 @@
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: rgba(110, 63, 191, 0.4);
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3 {
@@ -52,7 +58,7 @@ h3 {
 
 .title {
     margin: 0;
-    padding: 12.5rem 10rem 0;
+    padding: 12.5rem 10rem 6rem;
     font-size: 3rem;
     color: #fff;
     text-align: end;
@@ -61,7 +67,7 @@ h3 {
 .profile {
     background-color: #fff;
     padding: 1rem 10rem;
-    margin-top: 5rem;
+    margin: 5rem 0;
 }
 
 .profile-image {
@@ -90,13 +96,13 @@ h3 {
 .contact {
     background-color: #fff;
     padding: 1rem 10rem;
-    margin-top: 5rem;
+    margin: 5rem 0;
 }
 
 .photography {
     background-color: #fff;
     padding: 1rem 10rem;
-    margin-top: 5rem;   
+    margin: 5rem 0;   
 }
 
 .photography-container {
@@ -116,8 +122,8 @@ h3 {
 .footer {
     background-color: #fff;
     text-align: center;
-    margin-top: 5rem;
     padding: 0.5rem 0;
+    margin-top: auto;
 }
 
 .copyright {
@@ -135,16 +141,18 @@ h3 {
     }
 
     .title {
-        padding: 7rem 2.5rem 0;
+        padding: 7rem 2.5rem 3rem;
         font-size: 2rem;
     }
     
     .profile {
         padding: 1rem 2rem;
+        margin: 4rem 0;
     }
     
     .hobby {
         padding: 1rem 2rem;
+        margin: 4rem 0;
     }
     
     .hobby-image {
@@ -158,9 +166,11 @@ h3 {
 
     .contact {
         padding: 1rem 2rem;
+        margin: 4rem 0;
     }
     
     .photography {
         padding: 1rem 2rem;
+        margin: 4rem 0;
     }
 }

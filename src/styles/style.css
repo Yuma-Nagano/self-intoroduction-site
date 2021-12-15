@@ -200,4 +200,20 @@ h3 {
     .hobby-image {
         min-width: 8rem;
     }
+
+    .profile {
+        margin: 2rem 0;
+    }
+    
+    .hobby {
+        margin: 2rem 0;
+    }
+
+    .contact {
+        margin: 2rem 0;
+    }
+    
+    .photography {
+        margin: 2rem 0;
+    }
 }

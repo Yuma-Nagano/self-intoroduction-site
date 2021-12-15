@@ -79,6 +79,10 @@ h3 {
     margin-top: 0.5rem
 }
 
+.profile-container {
+    margin-bottom: 2rem;
+}
+
 .hobby {
     background-color: #fff;
     padding: 1rem 10rem;
@@ -106,6 +110,10 @@ h3 {
     background-color: #fff;
     padding: 1rem 10rem;
     margin: 5rem 0;
+}
+
+.contact-container {
+    margin-bottom: 2rem;
 }
 
 .photography {
@@ -212,13 +220,25 @@ h3 {
     .profile {
         margin: 2rem 0;
     }
+
+    .profile-container {
+        margin-bottom: 1rem;
+    }
     
     .hobby {
         margin: 2rem 0;
     }
 
+    .hobby-container {
+        margin-bottom: 1rem;
+    }
+
     .contact {
         margin: 2rem 0;
+    }
+
+    .contact-container {
+        margin-bottom: 1rem;
     }
     
     .photography {

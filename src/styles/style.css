@@ -193,6 +193,11 @@ h3 {
         padding: 1rem 2rem;
         margin: 4rem 0;
     }
+
+
+    .contact-link {
+        font-size: 0.875rem;   
+    }
     
     .photography {
         padding: 1rem 2rem;
@@ -239,6 +244,10 @@ h3 {
 
     .contact-container {
         margin-bottom: 1rem;
+    }
+
+    .contact-link {
+        font-size: 0.75rem;   
     }
     
     .photography {
